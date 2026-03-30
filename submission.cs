@@ -13,7 +13,7 @@ namespace ConsoleApp1
         // github page url 2
         public static string xsdURL = "https://github.com/naiomisut/Assignment-445-4/blob/main/NationalParks.xsd";
         // github page url 3
-        public static string smlErrorURL = "";
+        public static string smlErrorURL = "https://github.com/naiomisut/Assignment-445-4/blob/main/NationalParksErrors.xml";
 
         public static void Main(string[] args)
         {
