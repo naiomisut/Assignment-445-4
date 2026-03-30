@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NationalParks>
+<NationalPark><!-- Not the correct root element-->
     <NationalPark>
     <Name>Tonto</Name>
     <Phone>6022255200</Phone>
@@ -27,7 +27,7 @@
     <NationalPark>
     <Name>Lassen Volcanic</Name>
     <Phone>5305956100</Phone>
-    <Address NearestAirport="Reddinf Municpal Airport">
+    <Address><!-- Missing Airport-->
     <Number>3<Number>
     <Street>38050 Highwat 36 East Park Headquarters</Street>
     <City>Mineral</City>
@@ -50,7 +50,7 @@
 
     <NationalPark>
     <Name>Yellowstone</Name>
-    <Phone>3073447381</Phone>
+    <!-- Missing Phone-->
     <Address NearestAirport="West Yellowstone Airport">
     <Number>5<Number>
     <Street>Yellowstone National NationalParks</Street>
@@ -81,7 +81,7 @@
     <City>Moose</City>
     <State>WY</State>
     <Zip>83012</Zip>
-    </Address>
+    <!-- Missing close to Address-->
     </NationalPark>
 
     <NationalPark Rating="4.9">
@@ -101,6 +101,7 @@
     <Phone>2193951882</Phone>
     <Address NearestAirport="Gary International Airport">
     <Number>9<Number>
+    <Number>9</Number> <!-- Double Numbers-->
     <Street>1215 IN-49</Street>
     <City>Porter</City>
     <State>IN</State>

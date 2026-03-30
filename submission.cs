@@ -9,9 +9,9 @@ namespace ConsoleApp1
     public class Submission
     {
         // github page url 1
-        public static string xmlURL = "";
+        public static string xmlURL = "https://github.com/naiomisut/Assignment-445-4/blob/main/NationalParks.xml";
         // github page url 2
-        public static string xsdURL = "";
+        public static string xsdURL = "https://github.com/naiomisut/Assignment-445-4/blob/main/NationalParks.xsd";
         // github page url 3
         public static string smlErrorURL = "";
 
