@@ -38,7 +38,7 @@
     <State>CA</State>
     <Zip>96063</Zip>
     </Address>
-    <!-- Missing Airport-->
+    <!-- Missing required element-->
     </NationalPark>
 
     <NationalPark>
@@ -57,7 +57,7 @@
 
     <NationalPark>
     <Name>Yellowstone</Name>
-    <Phone>3073447381</Phone>
+    <!-- Missing Phone element-->
     <Address>
     <Number>5</Number>
     <Street>Yellowstone National NationalParks</Street>
@@ -112,10 +112,10 @@
 
     <NationalPark Rating="4.6">
     <Name>Indiana Dunes</Name>
+    <Name>Indiana Dunes</Name><!--Double Name element-->
     <Phone>2193951882</Phone>
     <Address>
     <Number>9</Number>
-    <Number>9</Number><!--Double Numbers-->
     <Street>1215 IN-49</Street>
     <City>Porter</City>
     <State>IN</State>
