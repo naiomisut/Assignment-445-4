@@ -38,7 +38,7 @@ namespace ConsoleApp1
                 sets.ValidationEventHandler += (sender, e) =>
                 {
                     errors.add(e.Message);
-                }
+                };
                 using (XmlReader reader = XmlReader.Create(xmlURL, sets))
                 {
                     while (reader.Read()) { }
