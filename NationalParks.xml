@@ -106,4 +106,43 @@
    </Address>
    <NearestAirport>Flagstaff</NearestAirport>
    </NationalPark>
+
+    <NationalPark Rating="4.6">
+    <Name>Indiana Dunes</Name>
+    <Phone>2193951882</Phone>
+    <Address>
+    <Number>9</Number>
+    <Street>1215 IN-49</Street>
+    <City>Porter</City>
+    <State>IN</State>
+    <Zip>46304</Zip>
+    </Address>
+    <NearestAirport>Gary International Airport</NearestAirport>
+    </NationalPark>
+
+    <NationalPark Rating="4.8">
+    <Name>Shenandoah</Name>
+    <Phone>5409993500</Phone>
+    <Address>
+    <Number>10</Number>
+    <Street>3655 U.S. Highway 211 East</Street>
+    <City>Luray</City>
+    <State>VA</State>
+    <Zip>22835</Zip>
+    </Address>
+    <NearestAirport>Shenandoah Valley Regional Airport</NearestAirport>
+    </NationalPark>
+
+    <NationalPark Rating="4.7">
+    <Name>Mammoth Cave</Name>
+    <Phone>2707582180</Phone>
+    <Address>
+    <Number>11</Number>
+    <Street>1 Vistor Center Parkway</Street>
+    <City>Mammoth Cave</City>
+    <State>KY</State>
+    <Zip>42259-0007</Zip>
+    </Address>
+    <NearestAirport>Louisville Muhammad Ali International Airport</NearestAirport>
+    </NationalPark>
 </NationalParks>
