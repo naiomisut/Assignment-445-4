@@ -132,5 +132,18 @@
     <NearestAirport>Shenandoah Valley Regional Airport</NearestAirport>
     </NationalPark>
 
+    <NationalPark Rating="4.7">
+    <Name>Mammoth Cave</Name>
+    <Phone>2707582180</Phone>
+    <Address>
+    <Number>11</Number>
+    <Street>1 Vistor Center Parkway</Street>
+    <City>Mammoth Cave</City>
+    <State>KY</State>
+    <Zip>42259-0007</Zip>
+    </Address>
+    <NearestAirport>Louisville Muhammad Ali International Airport</NearestAirport>
+    </NationalPark>
+
 
 </NationalParks>
