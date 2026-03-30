@@ -9,32 +9,36 @@ namespace ConsoleApp1
     public class Submission
     {
         // github page url 1
-        public static string xmlURL = "https://github.com/naiomisut/Assignment-445-4/blob/main/NationalParks.xml";
+        public static string xmlURL = "https://raw.githubusercontent.com/naiomisut/Assignment-445-4/main/NationalParks.xml";
         // github page url 2
-        public static string xsdURL = "https://github.com/naiomisut/Assignment-445-4/blob/main/NationalParks.xsd";
+        public static string xsdURL = "https://raw.githubusercontent.com/naiomisut/Assignment-445-4/main/NationalParks.xsd";
         // github page url 3
-        public static string smlErrorURL = "https://github.com/naiomisut/Assignment-445-4/blob/main/NationalParksErrors.xml";
+        public static string xmlErrorURL = "https://raw.githubusercontent.com/naiomisut/Assignment-445-4/main/NationalParksErrors.xml";
 
         public static void Main(string[] args)
         {
             string res = Verification(xmlURL, xsdURL);
-            ConsoleApp1.WriteLine(res);
+            Console.WriteLine(res);
             res = Verification(xmlErrorURL, xsdURL);
-            ConsoleApp1.WriteLine(res);
-            res = Xm12Json(xmlURL);
-            ConsoleApp1.WriteLine(res);
+            Console.WriteLine(res);
+            res = Xml2Json(xmlURL);
+            Console.WriteLine(res);
 
         }
         public static string Verification(string xmlURL, string xsdURL)
         {
             try
             {
-                XmlScehmaSet schemas = new XmlScehmaSet();
-                schemas.Add("", xmlUrl);
+                XmlSchemaSet schemas = new XmlSchemaSet();
+                schemas.Add("", xsdUrl);
                 XmlReaderSettings sets = new XmlReaderSettings();
+                sets.schemas = schemas;
                 sets.ValidationType = ValidationType.Schema;
                 List<string> errors = new List<string>();
-                sets.ValidationEventHandler += (sender, errors) => errors.Add(errors.Message);
+                sets.ValidationEventHandler += (sender, e) =>
+                {
+                    errors.add(e.Message);
+                }
                 using (XmlReader reader = XmlReader.Create(xmlURL, sets))
                 {
                     while (reader.Read()) { }
@@ -60,7 +64,7 @@ namespace ConsoleApp1
             }
             catch (Exception e)
             {
-                return ex.Message;
+                return e.Message;
             }
         }
     }
