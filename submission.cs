@@ -9,9 +9,9 @@ namespace ConsoleApp1
 {
     public class Submission
     {
-        public static string xmlURL = "RAW_XML_URL";
-        public static string xmlErrorURL = "RAW_ERROR_XML_URL";
-        public static string xsdURL = "RAW_XSD_URL";
+        public static string xmlURL = "https://raw.githubusercontent.com/naiomisut/Assignment-445-4/refs/heads/main/NationalParks.xml";
+        public static string xmlErrorURL = "https://raw.githubusercontent.com/naiomisut/Assignment-445-4/refs/heads/main/NationalParksErrors.xml";
+        public static string xsdURL = "https://raw.githubusercontent.com/naiomisut/Assignment-445-4/refs/heads/main/NationalParks.xsd";
 
         public static void Main(string[] args)
         {
