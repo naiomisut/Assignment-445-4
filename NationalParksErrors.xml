@@ -44,6 +44,7 @@
     <NationalPark>
     <Name>Arches</Name>
     <Phone>4357192299</Phone>
+    <Phone>4357192298</Phone>
     <Address>
     <Number>4</Number>
     <Street>244 E. McDowell Rd</Street>
@@ -83,6 +84,7 @@
     <NationalPark Rating="4.9">
     <Name>Grand Teton</Name>
     <Phone>3077393399</Phone>
+    <Phone>3077393398</Phone>
     <Address>
     <Number>7</Number>
     <Street>103 headquarters Loop</Street>
