@@ -3,123 +3,132 @@
     <NationalPark>
     <Name>Tonto</Name>
     <Phone>6022255200</Phone>
-    <Address NearestAirport="Phoneix Sky Harbor International Airport">
+    <Address>
     <Number>1</Number>
     <Street>244 E. McDowell Rd</Street>
     <City>Phoneix</City>
     <State>AZ</State>
     <Zip>85006</Zip>
     </Address>
+    <NearestAirport>Phoneix Sky Harbor International Airport</NearestAirport>
     </NationalPark>
 
     <NationalPark>
     <Name>Joshua Tree</Name>
     <Phone>7603675500</Phone>
-    <Address NearestAirport="Palm Springs Internal Airport">
+    <Address>
     <Number>2</Number>
     <Street>74485 National Park Drive</Street>
     <City>Twentynine Palms</City>
     <State>CA</State>
     <Zip>92277-3597</Zip>
     </Address>
+    <NearestAirport>Palm Springs Internal Airport</NearestAirport>
     </NationalPark>
 
     <NationalPark>
     <Name>Lassen Volcanic</Name>
     <Phone>5305956100</Phone>
-    <Address><!-- Missing Airport-->
+    <Address>
     <Number>3</Number>
     <Street>38050 Highwat 36 East Park Headquarters</Street>
     <City>Mineral</City>
     <State>CA</State>
     <Zip>96063</Zip>
     </Address>
+    <!-- Missing Airport-->
     </NationalPark>
 
     <NationalPark>
     <Name>Arches</Name>
     <Phone>4357192299</Phone>
-    <Address NearestAirport="Cayonlands Reional Airport">
+    <Address>
     <Number>4</Number>
     <Street>244 E. McDowell Rd</Street>
     <City>Moab</City>
     <State>UT</State>
     <Zip>84532</Zip>
     </Address>
+    <NearestAirport>Cayonlands Reional Airport</NearestAirport>
     </NationalPark>
 
     <NationalPark>
     <Name>Yellowstone</Name>
-    <!-- Missing Phone-->
-    <Address NearestAirport="West Yellowstone Airport">
+    <Phone>3073447381</Phone>
+    <Address>
     <Number>5</Number>
     <Street>Yellowstone National NationalParks</Street>
     <City>Yellowstone National Park</City>
     <State>WY</State>
     <Zip>82190</Zip>
     </Address>
+    <NearestAirport>West Yellowstone Airport</NearestAirport>
     </NationalPark>
 
     <NationalPark Rating="4.9">
     <Name>Mount Rainier</Name>
     <Phone>3605692211</Phone>
-    <Address NearestAirport="Seattle-Tacoma International Airport">
+    <Address>
     <Number>6</Number>
     <Street>55210 238th Avenue East</Street>
     <City>Ashford</City>
     <State>WA</State>
     <Zip>98304</Zip>
     </Address>
+    <NearestAirport>Seattle-Tacoma International Airport</NearestAirport>
     </NationalPark>
 
     <NationalPark Rating="4.9">
     <Name>Grand Teton</Name>
     <Phone>3077393399</Phone>
-    <Address NearestAirport="Jackson Hole">
+    <Address>
     <Number>7</Number>
     <Street>103 headquarters Loop</Street>
     <City>Moose</City>
     <State>WY</State>
     <Zip>83012</Zip>
     <!-- Missing close to Address-->
+    <NearestAirport>Jackson Hole</NearestAirport>
     </NationalPark>
 
-    <NationalPark Rating="4.9">
-    <Name>Badlands</Name>
-    <Phone>6054335361</Phone>
-    <Address NearestAirport="Rapid City Regional Airport">
-    <Number>8</Number>
-    <Street>25216 Ben Reifel Road</Street>
-    <City>Interior</City>
-    <State>SD</State>
-    <Zip>57750</Zip>
-    </Address>
-    </NationalPark>
+   <NationalPark Rating="4.9">
+   <Name>Grand Canyon</Name>
+   <Phone>928-638-7496</Phone>
+   <Phone>888-297-2757</Phone>
+   <Phone>866-499-2574</Phone>
+   <Address>
+   <Number>8</Number>
+   <Street>S Entrance Road</Street>
+   <City>Grand Canyon</City>
+   <State>AZ</State>
+   <Zip>86023</Zip>
+   </Address>
+   <NearestAirport>Flagstaff</NearestAirport>
+   </NationalPark>
 
     <NationalPark Rating="4.6">
     <Name>Indiana Dunes</Name>
     <Phone>2193951882</Phone>
-    <Address NearestAirport="Gary International Airport">
+    <Address>
     <Number>9</Number>
-    <Number>9</Number> <!-- Double Numbers-->
+    <Number>9</Number><!--Double Numbers-->
     <Street>1215 IN-49</Street>
     <City>Porter</City>
     <State>IN</State>
     <Zip>46304</Zip>
     </Address>
+    <NearestAirport>Gary International Airport</NearestAirport>
     </NationalPark>
 
     <NationalPark Rating="4.8">
     <Name>Shenandoah</Name>
     <Phone>5409993500</Phone>
-    <Address NearestAirport="Shenandoah Valley Regional Airport">
+    <Address>
     <Number>10</Number>
     <Street>3655 U.S. Highway 211 East</Street>
     <City>Luray</City>
     <State>VA</State>
     <Zip>22835</Zip>
     </Address>
+    <NearestAirport>Shenandoah Valley Regional Airport</NearestAirport>
     </NationalPark>
-
-
-</NationalParks>
