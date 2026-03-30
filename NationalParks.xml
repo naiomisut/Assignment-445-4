@@ -4,7 +4,7 @@
     <Name>Tonto</Name>
     <Phone>6022255200</Phone>
     <Address NearestAirport="Phoneix Sky Harbor International Airport">
-    <Number>1<Number>
+    <Number>1</Number>
     <Street>244 E. McDowell Rd</Street>
     <City>Phoneix</City>
     <State>AZ</State>
@@ -16,7 +16,7 @@
     <Name>Joshua Tree</Name>
     <Phone>7603675500</Phone>
     <Address NearestAirport="Palm Springs Internal Airport">
-    <Number>2<Number>
+    <Number>2</Number>
     <Street>74485 National Park Drive</Street>
     <City>Twentynine Palms</City>
     <State>CA</State>
@@ -28,7 +28,7 @@
     <Name>Lassen Volcanic</Name>
     <Phone>5305956100</Phone>
     <Address NearestAirport="Reddinf Municpal Airport">
-    <Number>3<Number>
+    <Number>3</Number>
     <Street>38050 Highwat 36 East Park Headquarters</Street>
     <City>Mineral</City>
     <State>CA</State>
@@ -40,7 +40,7 @@
     <Name>Arches</Name>
     <Phone>4357192299</Phone>
     <Address NearestAirport="Cayonlands Reional Airport">
-    <Number>4<Number>
+    <Number>4</Number>
     <Street>244 E. McDowell Rd</Street>
     <City>Moab</City>
     <State>UT</State>
@@ -52,7 +52,7 @@
     <Name>Yellowstone</Name>
     <Phone>3073447381</Phone>
     <Address NearestAirport="West Yellowstone Airport">
-    <Number>5<Number>
+    <Number>5</Number>
     <Street>Yellowstone National NationalParks</Street>
     <City>Yellowstone National Park</City>
     <State>WY</State>
@@ -64,7 +64,7 @@
     <Name>Mount Rainier</Name>
     <Phone>3605692211</Phone>
     <Address NearestAirport="Seattle-Tacoma International Airport">
-    <Number>6<Number>
+    <Number>6</Number>
     <Street>55210 238th Avenue East</Street>
     <City>Ashford</City>
     <State>WA</State>
@@ -76,7 +76,7 @@
     <Name>Grand Teton</Name>
     <Phone>3077393399</Phone>
     <Address NearestAirport="Jackson Hole">
-    <Number>7<Number>
+    <Number>7</Number>
     <Street>103 headquarters Loop</Street>
     <City>Moose</City>
     <State>WY</State>
@@ -88,7 +88,7 @@
     <Name>Badlands</Name>
     <Phone>6054335361</Phone>
     <Address NearestAirport="Rapid City Regional Airport">
-    <Number>8<Number>
+    <Number>8</Number>
     <Street>25216 Ben Reifel Road</Street>
     <City>Interior</City>
     <State>SD</State>
@@ -100,7 +100,7 @@
     <Name>Indiana Dunes</Name>
     <Phone>2193951882</Phone>
     <Address NearestAirport="Gary International Airport">
-    <Number>9<Number>
+    <Number>9</Number>
     <Street>1215 IN-49</Street>
     <City>Porter</City>
     <State>IN</State>
@@ -112,7 +112,7 @@
     <Name>Shenandoah</Name>
     <Phone>5409993500</Phone>
     <Address NearestAirport="Shenandoah Valley Regional Airport">
-    <Number>10<Number>
+    <Number>10</Number>
     <Street>3655 U.S. Highway 211 East</Street>
     <City>Luray</City>
     <State>VA</State>
