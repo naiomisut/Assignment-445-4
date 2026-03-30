@@ -1,8 +1,8 @@
 using System;
-using Sytstem.Xml.Schema;
+using System.Xml.Schema;
 using System.Xml;
-using System.Io;
-using Newtonsoft.json;
+using System.IO;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 namespace ConsoleApp1
 {
